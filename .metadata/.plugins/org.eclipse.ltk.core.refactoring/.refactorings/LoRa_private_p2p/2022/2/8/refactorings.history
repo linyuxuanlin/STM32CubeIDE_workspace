@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LoRa_private_p2p/usart_test.launch&apos; to &apos;LoRa_private_p2p.launch&apos;" description="Rename resource &apos;usart_test.launch&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="usart_test.launch" name="LoRa_private_p2p.launch" stamp="1645098842708" updateReferences="true"/>
+</session>

@@ -1,0 +1,42 @@
+19:36:24 **** Incremental Build of configuration Debug for project MPU6050_test ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Power/Projects/Project-TCU/MPU/MPU6050_test/Core" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:133:30: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  133 |   HAL_UART_Transmit(&huart1, (uint8_t*) a_x, sizeof(a_x) - 1, 0xFFFF);
+      |                              ^
+../Core/Src/main.c:131:11: warning: unused variable 'a_z' [-Wunused-variable]
+  131 |   int16_t a_z = mpu1.Accelerometer_Z;
+      |           ^~~
+../Core/Src/main.c:130:11: warning: unused variable 'a_y' [-Wunused-variable]
+  130 |   int16_t a_y = mpu1.Accelerometer_Y;
+      |           ^~~
+../Core/Src/main.c:127:11: warning: unused variable 'g_z' [-Wunused-variable]
+  127 |   int16_t g_z = mpu1.Gyroscope_Z;
+      |           ^~~
+../Core/Src/main.c:126:11: warning: unused variable 'g_y' [-Wunused-variable]
+  126 |   int16_t g_y = mpu1.Gyroscope_Y;
+      |           ^~~
+../Core/Src/main.c:125:11: warning: unused variable 'g_x' [-Wunused-variable]
+  125 |   int16_t g_x = mpu1.Gyroscope_X;
+      |           ^~~
+../Core/Src/main.c:123:9: warning: unused variable 'temper' [-Wunused-variable]
+  123 |   float temper = mpu1.Temperature;
+      |         ^~~~~~
+arm-none-eabi-gcc -o "MPU6050_test.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Power\Projects\Project-TCU\MPU\MPU6050_test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MPU6050_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: MPU6050_test.elf
+ 
+arm-none-eabi-size   MPU6050_test.elf 
+arm-none-eabi-objdump -h -S  MPU6050_test.elf  > "MPU6050_test.list"
+arm-none-eabi-objcopy  -O binary  MPU6050_test.elf  "MPU6050_test.bin"
+   text	   data	    bss	    dec	    hex	filename
+  24488	     36	   1772	  26296	   66b8	MPU6050_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: MPU6050_test.bin
+ 
+Finished building: MPU6050_test.list
+ 
+
+19:36:25 Build Finished. 0 errors, 7 warnings. (took 756ms)
+
