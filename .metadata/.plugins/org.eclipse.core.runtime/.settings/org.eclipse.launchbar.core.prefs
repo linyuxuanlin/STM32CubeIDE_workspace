@@ -5,5 +5,6 @@ configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LoRa_private_p2p
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LoRa_private_p2p\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LoRa_private_p2p\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MPU6050_test\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:usart_test/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:usart_test/activeLaunchTarget=null\:---
