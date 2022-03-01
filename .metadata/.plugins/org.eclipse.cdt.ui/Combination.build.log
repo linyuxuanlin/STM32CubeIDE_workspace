@@ -1,0 +1,10 @@
+14:21:29 **** Incremental Build of configuration Debug for project Combination ****
+make -j8 all 
+arm-none-eabi-size   Combination.elf 
+   text	   data	    bss	    dec	    hex	filename
+  46824	    648	   1944	  49416	   c108	Combination.elf
+Finished building: default.size.stdout
+ 
+
+14:21:29 Build Finished. 0 errors, 0 warnings. (took 325ms)
+

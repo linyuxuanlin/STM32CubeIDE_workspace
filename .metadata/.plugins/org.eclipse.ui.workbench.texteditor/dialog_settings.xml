@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="USART1"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="USART1"/>
+			<item value="KalmanAngleY"/>
+			<item value="KalmanAngleX"/>
+			<item value="MPU_Y_Angle"/>
 			<item value="nan"/>
 			<item value="Button_Flag"/>
 			<item value="hal_delay"/>
@@ -19,11 +23,11 @@
 			<item value="i2c"/>
 			<item value="i2c1"/>
 			<item value="MPU_Read_Len"/>
-			<item value="readlen"/>
-			<item value="u16"/>
-			<item value="u8"/>
 		</list>
 		<list key="replacehistory">
+			<item value="KalmanAngleX"/>
+			<item value=""/>
+			<item value="MPU6050.KalmanAngleY"/>
 			<item value="Button_Dir_Flag"/>
 			<item value="I2C1"/>
 			<item value="uint16_t"/>
@@ -35,6 +39,6 @@
 		<item key="DIALOG_Y_ORIGIN" value="392"/>
 		<item key="DIALOG_WIDTH" value="312"/>
 		<item key="DIALOG_HEIGHT" value="395"/>
-		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-27|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-27|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 </section>

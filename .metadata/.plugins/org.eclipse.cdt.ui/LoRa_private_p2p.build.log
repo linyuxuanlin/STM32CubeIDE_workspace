@@ -1,10 +1,10 @@
-11:01:59 **** Incremental Build of configuration Debug for project LoRa_private_p2p ****
-make -j16 all 
+14:40:08 **** Incremental Build of configuration Debug for project LoRa_private_p2p ****
+make -j8 all 
 arm-none-eabi-size   LoRa_private_p2p.elf 
    text	   data	    bss	    dec	    hex	filename
   10108	     52	   1740	  11900	   2e7c	LoRa_private_p2p.elf
 Finished building: default.size.stdout
  
 
-11:01:59 Build Finished. 0 errors, 0 warnings. (took 257ms)
+14:40:08 Build Finished. 0 errors, 0 warnings. (took 316ms)
 
