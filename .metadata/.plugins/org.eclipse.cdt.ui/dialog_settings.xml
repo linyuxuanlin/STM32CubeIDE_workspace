@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="LastUsedSourceTemplate" value="默认的 C 源文件模板"/>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
@@ -10,5 +11,21 @@
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
 		<item key="size.width" value="643"/>
 		<item key="size.height" value="180"/>
+	</section>
+	<section name="PDOMSearchPage">
+		<item key="caseSensitive" value="false"/>
+		<item key="searchFlags" value="227191"/>
+		<list key="previousPatterns">
+			<item value="ETH_RESET_GPIO_Port"/>
+			<item value="eth_mspinit"/>
+			<item value="6000"/>
+			<item value="8001"/>
+			<item value="8080"/>
+			<item value="bridgeif_dfdb_entry_s"/>
+			<item value="port"/>
+			<item value="CDC_Receive_FS"/>
+			<item value="CDC_Transmit_FS"/>
+			<item value="VCP_Status"/>
+		</list>
 	</section>
 </section>

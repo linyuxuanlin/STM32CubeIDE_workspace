@@ -4,9 +4,9 @@ ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.cdt.ui.presentation
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.editors.textfont
 UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
 eclipse.preferences.version=1
-org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|\u5FAE\u8F6F\u96C5\u9ED1|10.285714|0|WINDOWS|1|-17|0|0|0|400|0|0|0|-122|3|2|1|34|\u5FAE\u8F6F\u96C5\u9ED1;
-org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|\u5FAE\u8F6F\u96C5\u9ED1|10.285714|0|WINDOWS|1|-17|0|0|0|400|0|0|0|-122|3|2|1|34|\u5FAE\u8F6F\u96C5\u9ED1;
-org.eclipse.cdt.ui.editors.textfont=1|\u5FAE\u8F6F\u96C5\u9ED1|10.285714|0|WINDOWS|1|-17|0|0|0|400|0|0|0|-122|3|2|1|34|\u5FAE\u8F6F\u96C5\u9ED1;
+org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Microsoft YaHei UI|12.0|0|WINDOWS|1|-36|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
+org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Microsoft YaHei UI|12.0|0|WINDOWS|1|-36|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
+org.eclipse.cdt.ui.editors.textfont=1|Microsoft YaHei UI|12.0|0|WINDOWS|1|-36|0|0|0|400|0|0|0|-122|3|2|1|34|Microsoft YaHei UI;
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands>\r\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+R"/>\r\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+F11"/>\r\n</org.eclipse.ui.commands>
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=255,255,255
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=255,255,255
